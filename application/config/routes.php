@@ -38,9 +38,14 @@
 |
 */
 
-$route['default_controller'] = "welcome";
-$route['404_override'] = '';
+$route['default_controller'] = "home";
+$route['404_override'] = 'errors/page_missing';
 
+// Ejemplo para 2 idiomas (ampliable al número de idiomas que utilices). Por ejemplo '/en/about' -> usaria el controlador 'about'
+$route['^(en|es)/(.+)$'] = "$2";
+
+// '/en', '/es' URIs -> controlador usado por defecto
+$route['^(en|es)$'] = $route['default_controller'];
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
