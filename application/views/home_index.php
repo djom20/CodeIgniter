@@ -1,45 +1,37 @@
-<?php echo $head; ?>
-<?php echo $lang; ?>
-<?php echo $login; ?>
-<?php echo $menu; ?>
-<?php echo $slide; ?>
-<?php echo $plans; ?>
-
 <div id="registrodomain" class="row-fluid">
-	<h3>Register Domian</h3>
+	<h3><?php echo lang('t1'); ?></h3>
 	<div class="span3">
-		<img src="<?php echo site_url("application/asset/img/1page-img.jpg"); ?>" alt="" style="width: 16em;">
+		<img src="<?php echo site_url('application/asset/img/1page-img.jpg'); ?>" alt="" style="width: 16em;">
 	</div>
 	<div id="domianinfo" class="span8">
-		<h4>las buenas ideas empiezan por un buen nombre</h4>
-		<h5>ingrese los dominios que desea registrar o transferir</h5>
+		<h4><?php echo lang('s1'); ?></h4>
+		<h5><?php echo lang('s2'); ?></h5>
 		<form action="../scripts/checkdomain.php" method="GET">
-			<input type="text" name="website" placeholder="Enter your domain name" class="span7" required="required">
+			<input type="text" name="website" placeholder="<?php echo lang('place'); ?>" class="span7" required="required">
 			<div class="btn-group" data-toggle="buttons-radio">
 				<?php
-					foreach ($query as $row) {
-						echo '<button name="dominio" class="btn btn-inverse" value="'.$row['nombre'].'">'.$row['nombre'].'</button>';
+					if (isset($query)) {
+						foreach ($query->result()  as $row) {
+							echo '<button name="dominio" class="btn btn-inverse" value="'.$row->nombre.'">'.$row->nombre.'</button>';
+						}
+						unset($query,$row);
 					}
 				?>
 			</div>
 		</form>
 	</div>
 	<div class="span11">
-		<p>Dominio es el nombre que tendrá su página web y sus correos electrónicos empresariales. Por ejemplo: sudominio.com y suempresa.com. Nosotros vendemos los dominios .com, .net, .org, .com.co, .co, etc. Si usted ya tiene el dominio no necesita comprarlo, puede hospedarlo en uno de nuestros planes de hosting o puede transferirlo a nuestra empresa.</p>
-		<p>El dominio es uno de los activos más importantes de una empresa, ya que es la forma como se identifica en Internet y es la forma como sus clientes lo encontrarán y contactarán. Es muy importante que adquiera su dominio en una empresa confiable y con respaldo, preferiblemente en su mismo país para que pueda recibir un mejor soporte y una factura legal de este servicio.</p>
+		<p><?php echo lang('p1'); ?></p>
+		<p><?php echo lang('p2'); ?></p>
 	</div>
 </div>
 <?php
-	if (isset($_REQUEST['query'])) {
+	if (isset($request)) {
 		echo '<div id="request" class="row-fluid">';
-		echo $_REQUEST['query'];
+		echo $_REQUEST['$request'];
 		if (file_exists("../modulos/whois.php")){ include('../modulos/whois.php'); }
 		echo '</div>';
 	}
 ?>
 <div class="row-fluid"></div>
-
-<?php echo $footer; ?>
-<?php echo $script; ?>
-
 </html>

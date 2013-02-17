@@ -1,51 +1,41 @@
-<?php echo $head; ?>
-<?php echo $login; ?>
-<?php echo $menu; ?>
-<?php echo $slide; ?>
-<?php echo $plans; ?>
-
-<div id="registrodomain" class="row-fluid">
-	<h3>Register Domian</h3>
-	<div class="span3">
-		<img src="<?php echo site_url("application/asset/img/1page-img.jpg"); ?>" alt="" style="width: 16em;">
-	</div>
-	<div id="domianinfo" class="span8">
-		<h4>las buenas ideas empiezan por un buen nombre</h4>
-		<h5>ingrese los dominios que desea registrar o transferir</h5>
-		<form action="../scripts/checkdomain.php" method="GET">
-			<input type="text" name="website" placeholder="Enter your domain name" class="span7" required="required">
-			<div class="btn-group" data-toggle="buttons-radio">
-				<?php 
-					$sql='SELECT `nombre` FROM `dominios` WHERE `estado` = 1';
-					include('../clases/sql.php');
-					$cont=0;
-					if (mysql_affected_rows() > 0) {
-						while($row=mysql_fetch_array($result)){
-							if ($cont==0) {
-								echo '<button name="dominio" class="btn btn-inverse" value="'.$row['nombre'].'">'.$row['nombre'].'</button>';
-								$cont=1;
-							}else{
-								echo '<button name="dominio" class="btn btn-inverse" value="'.$row['nombre'].'">'.$row['nombre'].'</button>';
-							}
-						}
-					}
-				?>
-			</div>
-		</form>
-	</div>
-	<div class="span11">
-		<p>Dominio es el nombre que tendrá su página web y sus correos electrónicos empresariales. Por ejemplo: sudominio.com y suempresa.com. Nosotros vendemos los dominios .com, .net, .org, .com.co, .co, etc. Si usted ya tiene el dominio no necesita comprarlo, puede hospedarlo en uno de nuestros planes de hosting o puede transferirlo a nuestra empresa.</p>
-		<p>El dominio es uno de los activos más importantes de una empresa, ya que es la forma como se identifica en Internet y es la forma como sus clientes lo encontrarán y contactarán. Es muy importante que adquiera su dominio en una empresa confiable y con respaldo, preferiblemente en su mismo país para que pueda recibir un mejor soporte y una factura legal de este servicio.</p>
-	</div>
+<div id="face_contact" class="row-fluid">Para nosotros es un gusto poder atenderle, por favor si tiene alguna inquietud o sugerencia no dude en contactarnos</div>
+<div id="contacts" class="row-fluid">
+    <div class="offset2 span3">
+        <h3>Postal Address</h3>
+        <label><strong>Zip Code:</strong> 08001000</label>
+        <label><strong>Country:</strong> Barranquilla</label>
+        <label><strong>Telephone:</strong> (+57) 301-444-2072</label>
+        <label><strong>Email:</strong> <?php echo mailto('info@altiviaot.com', 'info@altiviaot.com'); ?></label>
+    </div>
+    <div class="span6">
+        <h3 class="offset1">Contact Form</h3>
+        <form action="" class="form-horizontal">
+            <div class="control-group">
+                <label class="control-label">Your name:</label>
+                <div class="controls">
+                    <input type="text" name="" required="required">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">Your E-mail:</label>
+                <div class="controls">
+                    <input type="text" name="" required="required">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">Your message:</label>
+                <div class="controls">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <button type="button" class="btn">Cancelar</button>
+                    <button type="button" class="btn btn-warning"><i class="icon-envelope icon-white"></i> Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
 </div>
-<?php
-	if (isset($_REQUEST['query'])) {
-		echo '<div id="request" class="row-fluid">';
-		echo $_REQUEST['query'];
-		if (file_exists("../modulos/whois.php")){ include('../modulos/whois.php'); }
-		echo '</div>';
-	}
-?>
 <div class="row-fluid"></div>
-
-<?php echo $footer; ?>
+</html>

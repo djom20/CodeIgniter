@@ -1,13 +1,17 @@
 <?php
-	class Dominios_model extends Model {
-
+	class Dominios_model extends CI_Model{
 		function __construct(){
 			parent::Model();
 		}
 
 		function get_dominios(){
-			$sql = 'SELECT nombre FROM dominios WHERE estado = 1';
-			return mysql_query($sql);
+			$this->db->select('dominio');
+            $thi->db->where('estado',1);
+            $query = $this->db->get('nombre');
+            if ($query->num_row() > 0) {
+                return $query;
+            }
+			return 0;
 		}
 	}
 ?>

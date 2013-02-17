@@ -3,44 +3,27 @@
 class Domains extends CI_Controller {
 
 	public function index(){
-		$this->load->helper('language');
-		$this->lang->load('home');
+		//Idiomas
+        $this->lang->load('home');
+        $this->lang->load('template\menu');
+        $this->lang->load('template\login');
+        $this->lang->load('template\planes1');
+        $this->lang->load('template\footer');
 
-		//modulo del head
-		$this->load->library('MyHead');
-		$head = new MyHead;
-		$data['head'] = $head->show_head();
+        //Query's
+        $this->db->select('nombre, discoduro, transferencia, emails, ftp, precio');
+        $this->db->where('estado',1);
+        $data2['query'] = $this->db->get('planes_hosting');
 
-		//modulo del login
-		$this->load->library('MyLogin');
-		$login = new MyLogin;
-		$data['login'] = $login->show_login();
-
-		//modulo del menu
-		$this->load->library('MyMenu');
-		$menu = new MyMenu;
-		$data['menu'] = $menu->show_menu();
-
-		//modulo del slide
-		$this->load->library('MySlide');
-		$slide = new MySlide;
-		$data['slide'] = $slide->show_slide();
-
-		//modulo de los planes1
-		$this->load->library('MyPlans1');
-		$plans = new MyPlans1;
-		$data['plans'] = $plans->show_plans();
-
-		//modulo del footer
-		$this->load->library('MyFooter');
-		$footer = new MyFooter;
-		$data['footer'] = $footer->show_footer();
-
-		//detalles de la website
-		$data['webtitle'] = 'Book Collection';
-		$data['websubtitle'] = 'We collect all title of books on the world';
-		$data['webfooter'] = '© copyright by step by step php tutorial';
-
-		$this->load->view('domains_index',$data);
+        //Vistas
+        $this->load->view('template/header');
+        $this->load->view('template/lang');
+        $this->load->view('template/login');
+        $this->load->view('template/menu');
+        $this->load->view('template/slide');
+        $this->load->view('template/planes1',$data2);
+        $this->load->view('domains_index');
+        $this->load->view('template/footer');
+        $this->load->view('template/script');
 	}
 }

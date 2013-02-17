@@ -362,3 +362,6 @@ li.current a {
 #lang ul li.active {
   background-color: white;
 }
+#domaininfo h4 {
+  text-transform: uppercase;
+}
