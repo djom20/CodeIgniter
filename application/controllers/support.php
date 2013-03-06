@@ -7,7 +7,7 @@ class Support extends CI_Controller {
 		$this->lang->load('home');
 		$this->lang->load('template\menu');
 		$this->lang->load('template\login');
-		$this->lang->load('template\planes1');
+		$this->lang->load('template\planes');
 		$this->lang->load('template\footer');
 
 		//Query's
@@ -36,7 +36,7 @@ class Support extends CI_Controller {
 		$this->lang->load('home');
 		$this->lang->load('template\menu');
 		$this->lang->load('template\login');
-		$this->lang->load('template\planes1');
+		$this->lang->load('template\planes');
 		$this->lang->load('template\faq');
 		$this->lang->load('template\footer');
 

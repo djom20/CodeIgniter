@@ -7,17 +7,13 @@ class Home extends CI_Controller {
 		$this->lang->load('home');
 		$this->lang->load('template\menu');
 		$this->lang->load('template\login');
-		$this->lang->load('template\planes1');
+		$this->lang->load('template\planes');
 		$this->lang->load('template\footer');
 
 		//Query's
-		$this->db->select('nombre, discoduro, transferencia, emails, ftp, precio');
-		$this->db->where('estado',1);
-		$data2['query'] = $this->db->get('planes_hosting');
-
-		$this->db->select('nombre');
-		$this->db->where('estado',1);
-		$data['query'] = $this->db->get('dominios');
+		//$this->db->select('nombre');
+		//$this->db->where('estado',1);
+		//$data['query'] = $this->db->get('dominios');
 
 		//Vistas
 		$this->load->view('template/header');
@@ -25,8 +21,7 @@ class Home extends CI_Controller {
 		$this->load->view('template/login');
 		$this->load->view('template/menu');
 		$this->load->view('template/slide');
-		$this->load->view('template/planes1',$data2);
-		$this->load->view('home_index',$data);
+		$this->load->view('home_index');
 		$this->load->view('template/footer');
 		$this->load->view('template/script');
 	}

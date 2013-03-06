@@ -1,54 +1,54 @@
 <?php
-	$lang['q1'] = '¿Qué es hosting?';
-	$lang['a1'] = 'El hosting es un servicio que le permitirá publicar su página web en Internet, tener sus correos electrónicos con el nombre de su empresa, entre otras muchas más aplicaciones. Un hosting debe ir en conjunto con un dominio para que su página web y sus correos queden con el nombre de su empresa, por ejemplo: www.suempresa.com y gerencia@suempresa.com. En otras palabras un plan de hosting es un espacio que se encuentra en servidores conectados 24 horas al día a Internet, permitiendole que los usuarios puedan visitar su página en cualquier momento. Todos nuestros planes de hosting se encuentran en servidores de alto rendimiento, con redundancia en almacenamiento y con copias de seguridad diarias en otro centro de datos. Nosotros ofrecemos hosting en linux, hosting en windows y hosting dedicado.';
+	$lang['q1'] = 'What is hosting?';
+	$lang['a1'] = 'The hosting is a service that allows you to publish your website on the Internet, have your emails with your company name, among many other applications. A hosting should go in conjunction with a domain for your website and your emails are with your company name, for example: www.your_business.com and management@your_business.com. In other words a hosting plan is a space that is in servers 24 hours a day connected to the Internet, allowing users to visit your site at any time. All our hosting plans are in high-performance server, storage redundancy and daily backups in another data center. We offer linux hosting, windows hosting and dedicated hosting.';
 
-	$lang['q2'] = '¿Qué es dominio?';
-	$lang['a2'] = 'Dominio es el nombre que tendrá su página web y sus correos electrónicos empresariales. Por ejemplo: sudominio.com y suempresa.com. Nosotros vendemos los dominios .com, .net, .org, .com.co, .co, etc. Si usted ya tiene el dominio no necesita comprarlo, puede hospedarlo en uno de nuestros planes de hosting o puede transferirlo a nuestra empresa. El dominio es uno de los activos más importantes de una empresa, ya que es la forma como se identifica en Internet y es la forma como sus clientes lo encontrarán y contactarán. Es muy importante que adquiera su dominio en una empresa confiable y con respaldo, preferiblemente en su mismo país para que pueda recibir un mejor soporte y una factura legal de este servicio.';
+	$lang['q2'] = 'What is Domain?';
+	$lang['a2'] = 'Domain is the name that will take your website and your business emails. For example: sudominio.com and suempresa.com. We sell domains .Com, .Net, .Org, .Com.co, .Co, etc. If you already own the domain need not buy it, you can host it in one of our hosting plans or can transfer it to our company. The domain is one of the most important assets of a company, as it is the way the Internet is identified and is how your customers will find and contact you. It is very important that you purchase your domain in a reliable and backed company, preferably in their own country in order to receive better support and a legal bill for this service.';
 
-	$lang['q3'] = '¿Cuánto espacio tendrían mis cuentas de correo?';
-	$lang['a3'] = 'Mediante nuestra herramienta de administración de su servicio de hosting usted podrá crear sus cuentas de correo electrónico con la capacidad que usted desee y en cualquier momento, el espacio total de su cuenta de hosting se debe compartir entre su página web y sus correos electrónicos. Por ejemplo si adquiere un plan de hosting de 2000Mb de espacio y su página pesa 100Mb, tendrá 1900Mb para repartirlas en sus cuentas de correo.';
+	$lang['q3'] = 'How much space will my email accounts?';
+	$lang['a3'] = 'Through our management tool your hosting service you can create your email accounts with the capacity you want and at any time, the total space of your hosting account is shared between your website and your emails. For example if you purchase a hosting plan 2000MB of space and page weighs 100Mb, 1900Mb have to hand in their email accounts.';
 
-	$lang['q4'] = '¿Cómo subir sitio web, crear correos @miempresa.com y utilizar el constructor de sitios en nuestros planes de Hosting?';
-	$lang['a4'] = 'Todo el proceso de subir su página web, actualizarla y crear cuantas de correo electrónico puede ser realizado por usted mismo sin necesidad de nuestra intervención mediante las herramientas que le proveemos con su servicio, tales como: (Servicio de FTP, Panel de Administración con Administrador de Archivos, etc). Recomendamos ingresar a la página de inducción para ver el proceso de publicación de sitio web, administrar correo corporativo, entre otros.';
+	$lang['q4'] = 'How to upload website, create correos@miempresa.com in our hosting plans?';
+	$lang['a4'] = 'The whole process of uploading your website, update and create as many email can be done by yourself without our intervention using the tools we provide with their service, such as: (FTP Service, Manager Administration Panel with Archives, etc.). We recommend entering the induction page to see the process of publishing website, manage corporate email, among others.';
 
-	$lang['q5'] = '¿Cómo puedo acceder a las cuentas de correo creadas?';
-	$lang['a5'] = 'Existen varias opciones para poder acceder a su correo electrónico, entre ellas están: Acceso via web (como hotmail pero con su dominio propio), Acceso via programas de correo (como Outlook, Thunderbird, Mail de Mac, etc) y mediante dispositivos móviles (como Blackberry, iPhone y practicamente cualquier celular con conexión a Internet).';
+	$lang['q5'] = 'How I can access the email accounts created?';
+	$lang['a5'] = 'There are several options for accessing their email, these include: web access (like hotmail but with your own domain), Access via mail programs (like Outlook, Thunderbird, Mac Mail, etc.) and via mobile devices (as the Blackberry, iPhone and virtually any phone with an internet connection).';
 
-	$lang['q6'] = '¿Ustedes cuentan con alguna demostración del panel de administración cPanel?';
-	$lang['a6'] = 'Claro que si, usted puede acceder a nuestro demo de cPanel dando clic aquí. Por favor tenga en cuenta que esta herramienta está limitada dado que es una versión de prueba. Ni el consutructor de sitios ni el fantastico están disponibles.';
+	$lang['q6'] = 'Do you have a demo cPanel administration panel?';
+	$lang['a6'] = 'Sure, you can access our cPanel demo by clicking here. Please note that this tool is limited because it is a trial version. Neither the site nor consutructor fantastic available.';
 
-	$lang['q7'] = 'Deseo enviar correo masivo, ¿es su servicio apto para esto?';
-	$lang['a7'] = 'Nuestros servicios de hosting no permiten el envío de correos masivos.';
+	$lang['q7'] = 'I want to send bulk mail, is suitable for this service?';
+	$lang['a7'] = 'Our hosting services do not allow mass mailings.';
 
-	$lang['q8'] = '¿Cómo adquirir el servicio?';
-	$lang['a8'] = 'Para adquirir el servicio solo debe realizar la orden del plan deseado (dando clic en el botón "Ordenar"), efectuar y notificar el pago, y en menos de una hora en horario de oficina se activa el servicio. El pago puede ser realizado en línea con tarjeta débito/crédito o consignación/transferencia en Bancolombia (Los datos de la cuenta son mostrados al realizar la orden).';
+	$lang['q8'] = 'Getting hold of the service?';
+	$lang['a8'] = 'To purchase the service only has to order the desired plan (by clicking on the "Order"), perform and report the payment, and in less than an hour during office hours the service is activated. Payment can be made ​​online with a consignment / transfer Davivienda (The account details are displayed when making the order).';
 
-	$lang['q9'] = '¿Cómo notifico el pago del servicio?';
-	$lang['a9'] = 'Para consignaciones y transferencias, por favor enviar el soporte de pago (copia de la consignación Bancolombia o imágen de la transacción) al correo pagos@altiviaot.com o vía fax a la línea gratuita nacional 018000120190 Opción 4. Recuerde que puede comunicarse vía telefónica para confirmar el recibido del comprobante al PBX 6028584 en Bogotá, PBX 4854089 en Cali y la línea gratuita nacional 018000120190.';
+	$lang['q9'] = 'How to notify the payment service?';
+	$lang['a9'] = 'For appropriations and transfers, please send the support payment (copy of the deposit Davivienda) to e direction@altiviaot.com. Remember that you can communicate via telephone to confirm receipt received from the 3014442072 in Barranquilla.';
 
-	$lang['q10'] = '¿Por qué AltiviaOT?';
-	$lang['a10'] = 'altiviaot es líder en el mercado de hosting en Colombia, nuestra mejor garantía es la calidad. Es por eso que ofrecemos una garantía de satisfacción de 30 días. Algunas de las características que nos hacen mejores que la competencia son:';
-	$lang['op1'] = 'Todos nuestros servidores son propios (no alquilamos los servidores como la mayoría de los proveedores nacionales).';
-	$lang['op2'] = 'Todos nuestros servidores cuentan con el mejor hardware que hay en el mercado.';
-	$lang['op3'] = 'El mejor soporte técnico, facilidad de comunicación, en su idioma, sin intermediarios, vía chat, telefónicamente, correo y sistema de soporte 24/7.';
-	$lang['op4'] = 'Realizamos copias de seguridad de su información todos los días en otro centro de datos.';
-	$lang['op5'] = 'Todos nuestros servidores están siendo monitoreados 24 horas al día.';
-	$lang['op6'] = 'Todos nuestros servidores de hosting cuentan con su propio firewall y sistema de detección de intrusos.';
-	$lang['op7'] = 'Nuestros servidores DNS están en dos centros de datos distintos sincronizados entre sí, para poderle brindad alta disponibilidad.';
-	$lang['op8'] = 'Entre otras muchas más.';
+	$lang['q10'] = 'Why AltiviaOT?';
+	$lang['a10'] = "Altiviaot is a leader in the hosting market in Colombia, our best guarantee is quality. That's why we offer a satisfaction guarantee for 30 days. Some of the characteristics that make us better than the competition are:";
+	$lang['op1'] = 'All our servers are own (not rent servers like most domestic suppliers).';
+	$lang['op2'] = 'All our servers have the best hardware on the market.';
+	$lang['op3'] = 'The best technical support, ease of communication, in their language, without intermediaries, via chat, phone, and email support system 24/7.';
+	$lang['op4'] = 'We back up your data every day in another data center.';
+	$lang['op5'] = 'All our servers are monitored 24 hours a day.';
+	$lang['op6'] = 'All our hosting servers have their own firewall and intrusion detection system.';
+	$lang['op7'] = 'Our DNS servers are in two different data centers synchronized with each other, so that we can boozy high availability.';
+	$lang['op8'] = 'Among many more.';
 
-	$lang['q11'] = '¿Cómo entro al panel de administración de mi sitio?';
-	$lang['a11'] = 'Desde su navegador ingrese a la siguiente dirección http://www.sudominio.com/cpanel/ (reemplace sudominio.com por el nombre de su dominio) y digite su nombre de usuario y contraseña. Estos datos serán enviados a usted vía Correo Electrónico cuando su cuenta de hosting sea activada. En el caso de que usted tenga un servidor bajo windows el acceso sería de la siguiente forma: https://abraham.altiviaot.com:8443';
+	$lang['q11'] = 'How do I enter the admin panel of my site?';
+	$lang['a11'] = 'From your browser go to the following address http://www.sudominio.com/cpanel/ (sudominio.com replace the name of your domain) and enter your user name and password. These data will be sent to you via email when your hosting account is activated. In the event that you have a server under windows would access as follows: https://abraham.altiviaot.com:8443';
 
-	$lang['q12'] = '¿Mi compra es segura?';
-	$lang['a12'] = 'PagosOnLine es la principal empresa de pagos en línea en Colombia, ellos cuentan con importantes certificados de seguridad. Todas las transacciones realizadas desde esta página son transferidas a PagosOnlLine.net. Asi que su compra es 100% segura.';
+	$lang['q12'] = 'Will my purchase is secure?';
+	$lang['a12'] = 'Pagosonline is the leading online payments in Colombia, they have important security certificates. All transactions from this site are transferred to PagosOnlLine.net. So your purchase is 100% secure.';
 
-	$lang['q13'] = '¿Es difícil hacer una página web?';
-	$lang['a13'] = 'Hoy en día existen muchas herramientas que usted podrá utilizar sin necesidad de tener conocimientos en diseño de páginas web, le recomendamos las siguientes: FrontPage y Dreamweaver. De igual forma nuestro planes de Hosting (a partir del Pyme) incluyen el constructor de sitios web que le permitira a través de un sencillo asistente diseñar su página.';
+	$lang['q13'] = 'Is it hard to make a website?';
+	$lang['a13'] = 'Today there are many tools you can use without any knowledge in web design, we recommend the following: FrontPage and Dreamweaver. Similarly our hosting plans (from Pyme) include web site builder that will allow you through a simple wizard to design your page.';
 
-	$lang['q14'] = '¿Cómo puedo cancelar mi servicio de hosting?';
-	$lang['a14'] = 'Con 5 días de anticipación a la terminación de su contrato, usted deberá enviar un correo a pagos@altiviaot.com solicitándonos la cancelación de su cuenta.';
+	$lang['q14'] = 'How I can cancel my hosting service?';
+	$lang['a14'] = 'With 5 days prior to the termination of his contract, you must send an email to direction@altiviaot.com asking us to cancel your account.';
 
-	$lang['q15'] = '¿Sus precios incluyen IVA?';
-	$lang['a15'] = 'Los precios especificados en nuestra Página Web no incluyen IVA (16%), al momento de realizar la orden de compra usted podrá ver el valor de IVA que debe pagar.';
+	$lang['q15'] = 'Do your prices include IVA?';
+	$lang['a15'] = 'The price quoted on our website do not include IVA (16%), at the time of the purchase order you can see the value of tax you pay.';
 ?>

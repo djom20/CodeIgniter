@@ -1,14 +1,14 @@
 <div id="lang" class="row-fluid">
     <ul>
         <li
-        <?php 
+        <?php
             if($this->lang->lang() == "en") {
         ?>
              class="active">
             EN
         <?php }else{ ?>
             >
-            <?php echo  anchor($this->lang->switch_uri("en"),"EN"); 
+            <?php echo  anchor($this->lang->switch_uri("en"),"EN");
         }?>
         </li>
         <li

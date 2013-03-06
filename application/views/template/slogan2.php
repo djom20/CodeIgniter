@@ -1,0 +1,1 @@
+<div id="slogan2" class="row-fluid"></div>

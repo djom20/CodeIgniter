@@ -1,32 +1,53 @@
 <div id="hosting" class="row-fluid">
-    <h2>Hosting</h2>
-    <div class="row-fluid">
-        <p>
-            El hosting es un servicio que le permitirá publicar su página web en Internet, tener sus correos electrónicos con el nombre de su empresa, entre otras muchas más aplicaciones. Un hosting debe ir en conjunto con un dominio para que su página web y sus correos queden con el nombre de su empresa, por ejemplo: www.suempresa.com y gerencia@suempresa.com.
-            En otras palabras un plan de hosting es un espacio que se encuentra en servidores conectados 24 horas al día a Internet, permitiendole que los usuarios puedan visitar su página en cualquier momento. Todos nuestros planes de hosting se encuentran en servidores de alto rendimiento, con redundancia en almacenamiento y con copias de seguridad diarias en otro centro de datos. Nosotros ofrecemos hosting en linux, hosting en windows y hosting dedicado.
-        </p>
-        <br>
-    </div>
-    <div class="row-fluid">
-        <div class="span1">
-            <img src="<?php echo site_url('application/asset/img/cpanel.png'); ?>" alt="" style="width: 76px;">
-        </div>
-        <p class="span11">
-            cPanel y Fantastico
-            Administre usted mismo su cuenta de hosting (cree cuentas de correo, suba su página) e instale docenas de aplicaciones de código abierto como (Joomla, Wordpress, Carros de Compras, etc) con un par de clics.
-        </p>
-    </div>
-    <div class="row-fluid">
-        <div class="span1">
-            <img src="<?php echo site_url('application/asset/img/user.png'); ?>" alt="" style="width: 76px;">
-        </div>
-        <p class="span11">
-            Usted es el dueño de su dominio
-            Los dominios que usted registre con nosotros quedarán registrados a su nombre y su información podrá ser consultada haciendo un whois al dominio. Mediante nuestro panel de administración usted podrá apuntar su dominio a otro proveedor en el momento en que lo desee.
-        </p>
-    </div>
-    <br>
-    <a href="./../hosting_plans/" class="btn btn-inverse">Mas detalles de nuestros Hosting</a>
+	<h2>Hosting</h2>
+	<div class="row-fluid">
+		<p>
+			<?php echo lang('p1'); ?>
+		</p>
+		<br>
+	</div>
+	<div class="row-fluid">
+		<div class="span1">
+			<img src="<?php echo site_url('application/asset/img/cpanel.png'); ?>" alt="" style="width: 76px;">
+		</div>
+		<p class="span11">
+			<?php echo lang('hosting.t1'); ?>
+			<?php echo lang('hosting.p2'); ?>
+		</p>
+	</div>
+	<div class="row-fluid">
+		<div class="span1">
+			<img src="<?php echo site_url('application/asset/img/user.png'); ?>" alt="" style="width: 76px;">
+		</div>
+		<p class="span11">
+			<?php echo lang('hosting.t2'); ?>
+			<?php echo lang('hosting.p3'); ?>
+		</p>
+	</div>
+	<div class="row-fluid">
+		<div class="span1">
+			<img src="<?php echo site_url('application/asset/img/email.png'); ?>" alt="" style="width: 76px;">
+		</div>
+		<p class="span11">
+			<strong><?php echo lang('hosting.t3'); ?></strong>
+			<?php echo lang('hosting.mails'); ?>
+		</p>
+	</div>
+	<div class="row-fluid">
+		<div class="span1">
+			<img src="<?php echo site_url('application/asset/img/activacion.png'); ?>" alt="" style="width: 76px;">
+		</div>
+		<p class="span11">
+			<strong><?php echo lang('hosting.t4'); ?></strong>
+			<?php echo lang('hosting.act'); ?>
+		</p>
+	</div>
+	<div id="soporte" class="row-fluid">
+		<p><strong><?php echo lang('hosting.t5'); ?></strong></p>
+		<img src="<?php echo site_url('application/asset/img/getImage.png'); ?>" alt="" style="width: 100%;">
+	</div>
+	<br>
+	<?php echo anchor('hosting/plans/', lang('hosting.b1'), array('class' => 'btn btn-inverse')); ?>
 </div>
 <div class="row-fluid"></div>
 </html>

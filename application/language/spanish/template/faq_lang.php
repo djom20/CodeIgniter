@@ -5,10 +5,10 @@
 	$lang['q2'] = '¿Qué es dominio?';
 	$lang['a2'] = 'Dominio es el nombre que tendrá su página web y sus correos electrónicos empresariales. Por ejemplo: sudominio.com y suempresa.com. Nosotros vendemos los dominios .com, .net, .org, .com.co, .co, etc. Si usted ya tiene el dominio no necesita comprarlo, puede hospedarlo en uno de nuestros planes de hosting o puede transferirlo a nuestra empresa. El dominio es uno de los activos más importantes de una empresa, ya que es la forma como se identifica en Internet y es la forma como sus clientes lo encontrarán y contactarán. Es muy importante que adquiera su dominio en una empresa confiable y con respaldo, preferiblemente en su mismo país para que pueda recibir un mejor soporte y una factura legal de este servicio.';
 
-	$lang['q3'] = '¿Cuánto espacio tendrían mis cuentas de correo?';
+	$lang['q3'] = '¿Cuánto espacio tendran mis cuentas de correo?';
 	$lang['a3'] = 'Mediante nuestra herramienta de administración de su servicio de hosting usted podrá crear sus cuentas de correo electrónico con la capacidad que usted desee y en cualquier momento, el espacio total de su cuenta de hosting se debe compartir entre su página web y sus correos electrónicos. Por ejemplo si adquiere un plan de hosting de 2000Mb de espacio y su página pesa 100Mb, tendrá 1900Mb para repartirlas en sus cuentas de correo.';
 
-	$lang['q4'] = '¿Cómo subir sitio web, crear correos @miempresa.com y utilizar el constructor de sitios en nuestros planes de Hosting?';
+	$lang['q4'] = '¿Cómo subir sitio web, crear correos @miempresa.com en nuestros planes de Hosting?';
 	$lang['a4'] = 'Todo el proceso de subir su página web, actualizarla y crear cuantas de correo electrónico puede ser realizado por usted mismo sin necesidad de nuestra intervención mediante las herramientas que le proveemos con su servicio, tales como: (Servicio de FTP, Panel de Administración con Administrador de Archivos, etc). Recomendamos ingresar a la página de inducción para ver el proceso de publicación de sitio web, administrar correo corporativo, entre otros.';
 
 	$lang['q5'] = '¿Cómo puedo acceder a las cuentas de correo creadas?';
@@ -21,10 +21,10 @@
 	$lang['a7'] = 'Nuestros servicios de hosting no permiten el envío de correos masivos.';
 
 	$lang['q8'] = '¿Cómo adquirir el servicio?';
-	$lang['a8'] = 'Para adquirir el servicio solo debe realizar la orden del plan deseado (dando clic en el botón "Ordenar"), efectuar y notificar el pago, y en menos de una hora en horario de oficina se activa el servicio. El pago puede ser realizado en línea con tarjeta débito/crédito o consignación/transferencia en Bancolombia (Los datos de la cuenta son mostrados al realizar la orden).';
+	$lang['a8'] = 'Para adquirir el servicio solo debe realizar la orden del plan deseado (dando clic en el botón "Ordenar"), efectuar y notificar el pago, y en menos de una hora en horario de oficina se activa el servicio. El pago puede ser realizado por consignación/transferencia en Davivienda (Los datos de la cuenta son mostrados al realizar la orden).';
 
 	$lang['q9'] = '¿Cómo notifico el pago del servicio?';
-	$lang['a9'] = 'Para consignaciones y transferencias, por favor enviar el soporte de pago (copia de la consignación Bancolombia o imágen de la transacción) al correo pagos@altiviaot.com o vía fax a la línea gratuita nacional 018000120190 Opción 4. Recuerde que puede comunicarse vía telefónica para confirmar el recibido del comprobante al PBX 6028584 en Bogotá, PBX 4854089 en Cali y la línea gratuita nacional 018000120190.';
+	$lang['a9'] = 'Para consignaciones y transferencias, por favor enviar el soporte de pago (copia de la consignación Davivienda) al correo direction@altiviaot.com. Recuerde que puede comunicarse vía telefónica para confirmar el recibido del comprobante al 3014442072 en Barranquilla.';
 
 	$lang['q10'] = '¿Por qué AltiviaOT?';
 	$lang['a10'] = 'altiviaot es líder en el mercado de hosting en Colombia, nuestra mejor garantía es la calidad. Es por eso que ofrecemos una garantía de satisfacción de 30 días. Algunas de las características que nos hacen mejores que la competencia son:';
@@ -47,7 +47,7 @@
 	$lang['a13'] = 'Hoy en día existen muchas herramientas que usted podrá utilizar sin necesidad de tener conocimientos en diseño de páginas web, le recomendamos las siguientes: FrontPage y Dreamweaver. De igual forma nuestro planes de Hosting (a partir del Pyme) incluyen el constructor de sitios web que le permitira a través de un sencillo asistente diseñar su página.';
 
 	$lang['q14'] = '¿Cómo puedo cancelar mi servicio de hosting?';
-	$lang['a14'] = 'Con 5 días de anticipación a la terminación de su contrato, usted deberá enviar un correo a pagos@altiviaot.com solicitándonos la cancelación de su cuenta.';
+	$lang['a14'] = 'Con 5 días de anticipación a la terminación de su contrato, usted deberá enviar un correo a direction@altiviaot.com solicitándonos la cancelación de su cuenta.';
 
 	$lang['q15'] = '¿Sus precios incluyen IVA?';
 	$lang['a15'] = 'Los precios especificados en nuestra Página Web no incluyen IVA (16%), al momento de realizar la orden de compra usted podrá ver el valor de IVA que debe pagar.';

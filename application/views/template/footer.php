@@ -58,7 +58,7 @@
         </div>
         <footer class="row-fluid">
             <p><?php echo lang('copy'); ?> <strong>Altivia<span>OT</span> © 2012.</strong>
-            <br><?php echo lang('copy'); echo anchor('http://blog.altiviaot.com','<strong> blog</strong>'); ?></p>
+            <br><?php echo lang('copy2'); echo anchor('http://blog.altiviaot.com','<strong> blog</strong>'); ?></p>
         </footer>
     </div>
 </div>

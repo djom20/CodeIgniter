@@ -265,9 +265,6 @@ div.current > a {
 li.current a {
   color: #eb8a1d !important;
 }
-#contacts {
-  margin-top: 5%;
-}
 #fondo {
   background-image: url('../img/slider-bg.jpg');
   background-position: -13em;
@@ -291,10 +288,10 @@ li.current a {
   color: white !important;
 }
 #facebook img {
-  width: 52%;
+  width: 25%;
 }
 #twitter img {
-  width: 100%;
+  width: 50%;
 }
 #plansinfo {
   margin-top: 3%;
@@ -336,9 +333,11 @@ li.current a {
   text-align: justify;
 }
 #hosting,
+#contacts,
 #slide,
 #slogan,
 #slogan2,
+#slogan3,
 #infoplanes,
 #planes,
 #domains,
@@ -346,8 +345,11 @@ li.current a {
 #request,
 #registrodomain,
 #supportinfo,
+#soporte,
 #faq,
-#reseller {
+#reseller,
+#hosting_plans_details,
+#hosting_details_system {
   margin-top: 2%;
 }
 #lang ul {
@@ -364,4 +366,43 @@ li.current a {
 }
 #domaininfo h4 {
   text-transform: uppercase;
+}
+#soporte {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+#slogan3 {
+  background-image: url('../img/secretaria.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  height: 29em;
+  width: 100%;
+}
+.texto {
+  color: white;
+  font-size: 2em;
+  margin-left: 13%;
+  margin-top: 21%;
+  padding: 5%;
+  width: 19em;
+}
+.form-horizontal .controls {
+  margin-left: 0px !important;
+}
+.form-horizontal .control-group {
+  margin-bottom: 10px !important;
+}
+.center {
+  text-align: center !important;
+}
+.right {
+  text-align: right !important;
+}
+.left {
+  text-align: left !important;
+}
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: #0088cc !important;
 }

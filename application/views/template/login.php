@@ -1,7 +1,7 @@
 <div id="login" class="row-fluid">
-    <div id="socialmedia" class="span6">
-        <div id="facebook" class="span1"><?php echo anchor('https://facebook.com/pages/Altiviaot/102802866559001','<img src="'.site_url("application/asset/img/facebook.png").'" alt="">'); ?></div>
-        <div id="twitter" class="span1"><?php echo anchor('http://twitter.com/altiviaot','<img src="'.site_url("application/asset/img/twitter.png").'" alt="">'); ?></div>
+    <div id="socialmedia" class="span5">
+        <div id="facebook" class="span2"><?php echo anchor('https://facebook.com/pages/Altiviaot/102802866559001','<img src="'.site_url("application/asset/img/facebook.png").'" alt="">'); ?></div>
+        <div id="twitter" class="span2"><?php echo anchor('http://twitter.com/altiviaot','<img src="'.site_url("application/asset/img/twitter.png").'" alt="">'); ?></div>
     </div>
     <form action="../scripts/user_conexion.php">
         <input class="span2" type="text" name="username" placeholder="<?php echo lang('place2'); ?>" required="required">
