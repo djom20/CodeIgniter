@@ -1,7 +1,7 @@
 <div id="reseller" class="row-fluid">
 	<h2><?php echo lang('reseller.t1'); ?></h2>
 	<div class="row-fluid">
-		<div class="span5"><img src="<?php echo site_url('application/asset/img/reseller-linux.png'); ?>" height="268" width="406" alt=""></div>
+		<div class="span5"><img src="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/hosting/images/reseller-linux.png" height="268" width="406" alt=""></div>
 		<div id="plansinfo2" class="span7">
 		<?php
 			if (isset($query)) {
@@ -18,7 +18,7 @@
 					echo '<li>CGI</li>';
 					echo '</ul>';
 					echo '<strong>'.lang('reseller.t3').'</strong>:<br>';
-					echo '<img src="'.site_url('application/asset/img/getImage.png').'" alt="" style="width: 100%;"><br><br>';
+					echo '<img src="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/hosting/images/getImage.png" alt="" style="width: 100%;"><br><br>';
 					echo '<button class="bnt btn-inverse btn-large">'.lang('btn2').' $'.$row->precio.' Col.</button>';
 				}
 				unset($query,$row);

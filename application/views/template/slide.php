@@ -1,7 +1,7 @@
 <div id="slide" class="row-fluid">
     <div id="fondo" class="span9" style="float: right;">
         <div class="info">
-            <img src="<?php echo site_url("application/asset/img/slide-title1.gif"); ?>">
+            <img src="https://dl.dropbox.com/u/57960869/Altiviaot/hosting/images/slide-title1.gif">
             <button class="offset8 btn btn-large btn-inverse">Learn More</button>
         </div>
     </div>

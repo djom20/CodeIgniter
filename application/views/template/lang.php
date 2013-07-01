@@ -1,5 +1,5 @@
 <div id="lang" class="row-fluid">
-    <ul>
+    <ul style="list-style: none;">
         <li
         <?php
             if($this->lang->lang() == "en") {

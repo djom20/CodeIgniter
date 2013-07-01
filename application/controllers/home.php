@@ -5,15 +5,10 @@ class Home extends CI_Controller {
 	public function index(){
 		//Idiomas
 		$this->lang->load('home');
-		$this->lang->load('template\menu');
-		$this->lang->load('template\login');
-		$this->lang->load('template\planes');
-		$this->lang->load('template\footer');
-
-		//Query's
-		//$this->db->select('nombre');
-		//$this->db->where('estado',1);
-		//$data['query'] = $this->db->get('dominios');
+		$this->lang->load('template/menu');
+		$this->lang->load('template/login');
+		$this->lang->load('template/planes');
+		$this->lang->load('template/footer');
 
 		//Vistas
 		$this->load->view('template/header');

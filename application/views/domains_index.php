@@ -6,7 +6,7 @@
 	</div>
 	<h3>Register Domian</h3>
 	<div class="span3">
-		<img src="<?php echo site_url("application/asset/img/1page-img.jpg"); ?>" alt="" style="width: 16em;">
+		<img src="https://dl.dropbox.com/u/57960869/Altiviaot/hosting/images/1page-img.jpg" alt="" style="width: 16em;">
 	</div>
 	<div id="domianinfo" class="span8">
 		<h4 style="text-transform:uppercase;">Las buenas ideas empiezan por un buen nombre</h4>
@@ -25,6 +25,23 @@
 				?>
 			</div>
 		</form>
+	</div>
+	<div id="domains" class="row-fluid">
+		<h3>Precios de Dominios</h3>
+		<table class="offset1 table table-condensed table-striped" style="width: 89%;">
+		    <thead>
+		        <tr>
+		            <th>Dominio</th>
+		            <th>Años</th>
+		            <th>Registrar</th>
+		            <th>Transferir</th>
+		            <th>Renovar</th>
+		        </tr>
+		    </thead>
+		    <tbody>
+		    	<tr><td>.com</td><td>1</td><td>$26000</td><td>$26000</td><td>$26000</td></tr><tr><td>.net</td><td>1</td><td>$26000</td><td>$26000</td><td>$26000</td></tr><tr><td>.org</td><td>1</td><td>$26000</td><td>$26000</td><td>$26000</td></tr><tr><td>.us</td><td>1</td><td>$26000</td><td>$26000</td><td>$26000</td></tr><tr><td>.com.co</td><td>1</td><td>$36000</td><td>$36000</td><td>$36000</td></tr><tr><td>.co</td><td>1</td><td>$42000</td><td>$42000</td><td>$42000</td></tr><tr><td>.es</td><td>1</td><td>$26000</td><td>$26000</td><td>$26000</td></tr>	        
+		    </tbody>
+		</table>
 	</div>
 </div>
 <?php

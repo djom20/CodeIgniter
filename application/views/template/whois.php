@@ -10,21 +10,21 @@
 	<tbody>
 		<tr>
 			<td>
-				<?php 
+				<?php
 					if (isset($_REQUEST['pagina'])) {
 						echo $_REQUEST['pagina'];
 					}
 				?>
 			</td>
 			<td>
-				<?php 
+				<?php
 					if (isset($_REQUEST['estado'])) {
 						echo $_REQUEST['estado'];
 					}
 				?>
 			</td>
 			<td>
-				<?php 
+				<?php
 					if (isset($_REQUEST['dominio'])) {
 						$sql='SELECT `id`,`precio` FROM `dominios` WHERE `estado` = 1 AND `nombre`="'.$_REQUEST['dominio'].'"';
 						include('../clases/sql.php');

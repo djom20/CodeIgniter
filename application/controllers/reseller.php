@@ -5,10 +5,10 @@ class Reseller extends CI_Controller {
 	public function index(){
 		//Idiomas
 		$this->lang->load('reseller');
-		$this->lang->load('template\menu');
-		$this->lang->load('template\login');
-		$this->lang->load('template\planes');
-		$this->lang->load('template\footer');
+		$this->lang->load('template/menu');
+		$this->lang->load('template/login');
+		$this->lang->load('template/planes');
+		$this->lang->load('template/footer');
 
 		//Query's
 		$this->db->select('id,nombre,discoduro,transferencia,cuentas,precio');
@@ -35,10 +35,10 @@ class Reseller extends CI_Controller {
 		if ($index != '') {
 			//Idiomas
 			$this->lang->load('reseller');
-			$this->lang->load('template\menu');
-			$this->lang->load('template\login');
-			$this->lang->load('template\planes');
-			$this->lang->load('template\footer');
+			$this->lang->load('template/menu');
+			$this->lang->load('template/login');
+			$this->lang->load('template/planes');
+			$this->lang->load('template/footer');
 
 			//Query's
 			$this->db->select('nombre,descripcion,discoduro,transferencia,cuentas,precio');

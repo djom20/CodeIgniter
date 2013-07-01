@@ -5,10 +5,10 @@ class Contacts extends CI_Controller {
 	public function index(){
 		//Idiomas
 		$this->lang->load('contacts');
-		$this->lang->load('template\menu');
-		$this->lang->load('template\login');
-		$this->lang->load('template\planes');
-		$this->lang->load('template\footer');
+		$this->lang->load('template/menu');
+		$this->lang->load('template/login');
+		$this->lang->load('template/planes');
+		$this->lang->load('template/footer');
 
 		//Vistas
 		$this->load->view('template/header');
@@ -42,8 +42,10 @@ class Contacts extends CI_Controller {
 		$this->email->message($mensaje);
 		if ( ! $this->email->send())
 		{
-			// Generar error
+
 		}
 		echo $this->email->print_debugger();
+
+		redirect('contacts', 'location');
 	}
 }

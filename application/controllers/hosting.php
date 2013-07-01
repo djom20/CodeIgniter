@@ -5,10 +5,10 @@ class Hosting extends CI_Controller {
 	public function index(){
 		//Idiomas
 		$this->lang->load('hosting');
-		$this->lang->load('template\menu');
-		$this->lang->load('template\login');
-		$this->lang->load('template\planes');
-		$this->lang->load('template\footer');
+		$this->lang->load('template/menu');
+		$this->lang->load('template/login');
+		$this->lang->load('template/planes');
+		$this->lang->load('template/footer');
 
 		//Query's
 		$this->db->select('nombre, discoduro, transferencia, emails, ftp, precio');
@@ -34,10 +34,10 @@ class Hosting extends CI_Controller {
 	public function plans($index = ''){
 		//Idiomas
 		$this->lang->load('hosting');
-		$this->lang->load('template\menu');
-		$this->lang->load('template\login');
-		$this->lang->load('template\planes');
-		$this->lang->load('template\footer');
+		$this->lang->load('template/menu');
+		$this->lang->load('template/login');
+		$this->lang->load('template/planes');
+		$this->lang->load('template/footer');
 
 		//Vistas
 		$this->load->view('template/header');
